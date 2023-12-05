@@ -1,0 +1,107 @@
+body{
+    align-items: center;
+    text-align: center;
+
+}
+.price{
+    background-image: url("../assets/price.png");
+    background-size: contain;
+    height: 200px;
+    width: 370px;
+    align-items: center;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 28%;
+}
+.mainProduct{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+
+
+    
+}
+.wrapper{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.price h3{
+display: flex;
+flex: row;
+justify-content: flex-end;
+align-items: center;
+font-size: 65px;
+margin: 30px;
+margin-top: 50px;
+
+}
+
+.games{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.game h3{
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    background-color: red;
+    margin: 20px;
+    color: white;
+    padding: 10px;
+    width: fit-content;
+ 
+}
+
+.game .price {
+    background-image: url("../assets/price.png");
+    background-size: contain;
+    height: 100px;
+    width: 200px;
+    align-items: center;
+    display: inline-block;
+    position: absolute;
+    bottom: 30%;
+    right: 0;
+}
+.game .price p{
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+
+
+}
+.topnav{
+    overflow: hidden;
+    background-color: red;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: white;
+    color: red;
+  }
+  
+footer p{
+    float: right;
+}
